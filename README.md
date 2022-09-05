@@ -45,6 +45,16 @@ While appreciated it's ofc by no means necessary. ♡<br><br>
 5. Copy your desired `userChrome.css` into that folder.
 6. *optional* Customise everything to your liking.
 
+<br>
+
+### Installation as an extension
+    
+On Firefox nightly and developer editions Cascade can be installed as an extension. On stable/beta browsers extensions cannot provide `userChrome.css` customizations.
+
+1. Enable installing unsigned extensions by following Mozilla's [guide](https://support.mozilla.org/fi/kb/unable-install-add-ons-extensions-or-themes) to whitelist `https://github.com` as an extension source and allowing installation of unsigned extensions by setting `xpinstall.signatures.required` to `false` in about:config.
+2. Enable extensions to provide themes by settings `extensions.experiments.enabled` to `true` in about:config.
+3. Install `cascade.xpi` by downloading it from the [Github releases](https://github.com/andreasgrafen/cascade/releases/latest).
+    
 <br><br>
 
 ## Customise Cascade to your liking
